@@ -16,6 +16,9 @@ import HorizontalForm from "./Components/panel/HorizontalForm";
 import VerticalForm from "./Components/panel/VerticalForm";
 import Tables from "./Components/panel/Tables";
 
+import BasicInputs from "./Components/panel/BasicInputs";
+import GroupInputs from "./Components/panel/GroupInputs";
+
 import Error from "./Components/panel/Error";
 import UnderMaintenance from "./Components/panel/UnderMaintenance";
 
@@ -39,6 +42,9 @@ function App() {
         <Route path="/panel/register" element={<Register />}></Route>
         <Route path="/panel/forgotpassword" element={<ForgotPassword />}></Route>
         <Route path="/panel/account" element={<Account />}></Route>
+
+        <Route path="/panel/basicinputs" element={<BasicInputs />}></Route>
+        <Route path="/panel/groupinputs" element={<GroupInputs />}></Route>
 
         <Route path="/panel/error" element={<Error />}></Route>
         <Route path="/panel/maintenance" element={<UnderMaintenance />}></Route>

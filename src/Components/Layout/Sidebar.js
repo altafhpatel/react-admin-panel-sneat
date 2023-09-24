@@ -271,11 +271,11 @@ function Sidebar(){
                 <div data-i18n="Form Elements">Form Elements</div>
               </a>
               <ul className="menu-sub">
-                  <NavLink to="" className="menu-item menu-link">
+                  <NavLink to="/panel/basicinputs" className="menu-item menu-link">
                     <div data-i18n="Basic Inputs">Basic Inputs</div>
                   </NavLink>
-                  <NavLink to="" className="menu-item menu-link">
-                    <div data-i18n="Input groups">Input groups</div>
+                  <NavLink to="/panel/groupinputs" className="menu-item menu-link">
+                    <div data-i18n="Input groups">Group Inputs</div>
                   </NavLink>
               </ul>
             </li>
